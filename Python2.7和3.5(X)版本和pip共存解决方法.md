@@ -35,3 +35,11 @@
 >python2 get-pip.py % 安装pip于2.7的模块集
 
 >python3 get-pip.py % 安装pip于3.5的模块集
+
+使用时可以直接在命令行中输入
+
+>pip2
+
+>pip3
+
+分别调用2.7和3.5版本的pip模块
