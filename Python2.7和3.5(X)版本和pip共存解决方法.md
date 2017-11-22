@@ -1,6 +1,7 @@
 # 安装2.7和3.5和改文件名
 
-官网下载安装即可，路径建议为D:\Python27和D:\Python35， 看个人  
+官网下载安装即可，路径建议为D:\Python27和D:\Python35， 看个人
+
 到安装文件夹下，分别将python.exe、pythonw.exe文件名改为
 
 >python2.exe、pythonw2.exe 
