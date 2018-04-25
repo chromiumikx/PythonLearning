@@ -25,12 +25,12 @@
 
 # 安装pip模块
 
-下载[get-pip.py文件](https://bootstrap.pypa.io/get-pip.py)到目录：
+下载get-pip.py文件（从[官方链接](https://bootstrap.pypa.io/get-pip.py)，或从[本文链接](https://github.com/chromiumikx/PythonLearning)），到目录（建议）：
 
 >D:\Python27\Scripts  
 >D:\Python35\Scripts
 
-进入命令行，运行
+进入命令行，进入get-pip.py所在的文件夹，运行
 
 >python2 get-pip.py % 安装pip于2.7的模块集
 
