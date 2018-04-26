@@ -35,7 +35,7 @@
 
 >python3.5 -m pip install --upgrade --force-reinstall pip % 安装pip于3.5的模块集
 
->python3.5 -m pip install --upgrade --force-reinstall pip % 安装pip于3.6的模块集
+>python3.6 -m pip install --upgrade --force-reinstall pip % 安装pip于3.6的模块集
 
 使用时可以直接在命令行中输入
 
