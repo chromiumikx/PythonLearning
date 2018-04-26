@@ -20,12 +20,12 @@
 
 (分别)手动添加系统环境变量PATH：python两版本的入口程序位置，两个pip 的入口程序位置
 
->D:\Python27  
->D:\Python27\Scripts  
->D:\Python35  
->D:\Python35\Scripts  
->D:\Python36  
->D:\Python36\Scripts 
+>D:\Python27\  
+>D:\Python27\Scripts\  
+>D:\Python35\  
+>D:\Python35\Scripts\  
+>D:\Python36\  
+>D:\Python36\Scripts\ 
 
 # 安装pip模块
 
