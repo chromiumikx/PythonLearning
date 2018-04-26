@@ -18,7 +18,7 @@
 
 # 添加环境变量
 
-(分别)手动添加系统环境变量PATH：python两版本的入口程序位置，两个pip 的入口程序位置
+分别（手动）添加系统环境变量PATH：python两版本的入口程序位置，两个pip 的入口程序位置
 
 >D:\Python27\  
 >D:\Python27\Scripts\  
