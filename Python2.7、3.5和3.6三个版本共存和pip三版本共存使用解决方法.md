@@ -37,8 +37,6 @@
 
 >python3.5 -m pip install --upgrade --force-reinstall pip % 安装pip于3.6的模块集
 
-同时，删去..`\Scripts`文件夹中的pip.exe, pip2.exe, pip3.exe
-
 使用时可以直接在命令行中输入
 
 >pip2.7
