@@ -8,11 +8,13 @@
 
 >python3.5.exe、pythonw3.5.exe
 
-进入命令行运行python2、python3会分别调用python2.7和python3.5
+进入命令行运行python2.7、python3.5、python3.6会分别调用python2.7和python3.5、python3.6
 
->python2 % 运行python2
+>python2.7 % 运行python2.7
 
 >python3.5 % 运行python3.5
+
+>python3.6 % 运行python3.6
 
 # 添加环境变量
 
@@ -21,20 +23,19 @@
 >D:\Python27  
 >D:\Python27\Scripts  
 >D:\Python35  
->D:\Python35\Scripts 
+>D:\Python35\Scripts  
+>D:\Python36  
+>D:\Python36\Scripts 
 
 # 安装pip模块
 
-下载get-pip.py文件（从[官方链接](https://bootstrap.pypa.io/get-pip.py)，或从[本文链接](https://github.com/chromiumikx/PythonLearning)），到目录（建议）：
+运行
 
->D:\Python27\Scripts  
->D:\Python35\Scripts
+>python2.7 -m pip install --upgrade --force-reinstall pip % 安装pip于2.7的模块集
 
-进入命令行，进入get-pip.py所在的文件夹，运行
+>python3.5 -m pip install --upgrade --force-reinstall pip % 安装pip于3.5的模块集
 
->python2 get-pip.py % 安装pip于2.7的模块集
-
->python3.5 get-pip.py % 安装pip于3.5的模块集
+>python3.5 -m pip install --upgrade --force-reinstall pip % 安装pip于3.6的模块集
 
 同时，删去..`\Scripts`文件夹中的pip.exe, pip2.exe, pip3.exe
 
@@ -44,4 +45,6 @@
 
 >pip3.5
 
-分别调用2.7和3.5版本的pip模块
+>pip3.6
+
+分别调用2.7、3.5和3.6版本的pip模块
