@@ -4,9 +4,11 @@
 
 到安装文件夹下，分别将python.exe、pythonw.exe文件名改为
 
->python2.exe、pythonw2.exe 
+>python2.7.exe、pythonw2.7.exe 
 
 >python3.5.exe、pythonw3.5.exe
+
+>python3.6.exe、pythonw3.6.exe
 
 进入命令行运行python2.7、python3.5、python3.6会分别调用python2.7和python3.5、python3.6
 
@@ -18,7 +20,7 @@
 
 # 添加环境变量
 
-分别（手动）添加系统环境变量PATH：python两版本的入口程序位置，两个pip 的入口程序位置
+分别（手动）添加系统环境变量PATH：python三版本的入口程序位置，三个pip 的入口程序位置（建议）
 
 >D:\Python27\  
 >D:\Python27\Scripts\  
@@ -46,3 +48,6 @@
 >pip3.6
 
 分别调用2.7、3.5和3.6版本的pip模块
+
+# `强烈建议`
+使用Anaconda来管理多python环境共存
