@@ -1,5 +1,7 @@
-# 安装2.7和3.5和改文件名
+# ！！！强烈建议
+使用Anaconda来管理多python环境共存
 
+# 安装2.7和3.5和改文件名
 官网下载安装即可，路径建议为D:\Python27和D:\Python35， 看个人
 
 到安装文件夹下，分别将python.exe、pythonw.exe文件名改为
@@ -19,7 +21,6 @@
 >python3.6 % 运行python3.6
 
 # 添加环境变量
-
 分别（手动）添加系统环境变量PATH：python三版本的入口程序位置，三个pip 的入口程序位置（建议）
 
 >D:\Python27\  
@@ -30,7 +31,6 @@
 >D:\Python36\Scripts\ 
 
 # 安装pip模块
-
 运行
 
 >python2.7 -m pip install --upgrade --force-reinstall pip % 安装pip于2.7的模块集
@@ -48,6 +48,3 @@
 >pip3.6
 
 分别调用2.7、3.5和3.6版本的pip模块
-
-# `强烈建议`
-使用Anaconda来管理多python环境共存
