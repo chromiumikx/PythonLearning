@@ -1,4 +1,4 @@
-# pythonlearning
+# python learning
 some notes while using python
 
 ## 1. 最好使用Anaconda来管理多个Python环境。
